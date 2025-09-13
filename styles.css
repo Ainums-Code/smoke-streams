@@ -1,0 +1,39 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  white-space: nowrap;
+  font-size: 5rem;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 0.35em;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1460px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 850px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 650px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
